@@ -1,9 +1,9 @@
-public class Bubblesort {
+public class week 2 {
     public static int[] swap(int[] input, int pos1, int pos2){
         int temp = input[pos1];
         input[pos1] = input[pos2];
         input[pos2] = temp;
-        return input;jjj
+        return input;
     }
     public static int[] sort(int[] input) {
         int n = input.length;
