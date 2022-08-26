@@ -3,7 +3,7 @@ public class Bubblesort {
         int temp = input[pos1];
         input[pos1] = input[pos2];
         input[pos2] = temp;
-        return input;
+        return input;jjj
     }
     public static int[] sort(int[] input) {
         int n = input.length;
